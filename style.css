@@ -1,0 +1,230 @@
+.header {
+    position: fixed;
+    width:100%;
+    top:0;
+	z-index:999;
+    background: #2C4762;
+    color: #DAF1FC;
+    height: 120px;
+    border-bottom: 3px solid  #BBBBBB;
+    border-top: 3px solid  #BBBBBB;
+    background-color: #0D3255;
+}
+
+.header img{
+      margin-top: 10px;
+      vertical-align: middle;
+}
+
+#inputWindow{
+	/* position: fixed; */
+	display: flex;
+	flex-direction: column;
+}
+
+#headerPic {
+	position: fixed;
+	left:20px;
+}
+
+#addFormat{
+	display: flex;
+	align-items: flex-end;
+
+}
+
+#flexbox{
+	display: flex;
+	align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#flexbox > div{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.game-window {
+  height: 100%;
+  width: 500px;
+  background: white;
+  border-right: 3px solid #53f;
+  float: left;
+  position: relative;
+}
+
+.content{
+    margin-left: 40px;
+}
+
+.imgContainer{
+    height: 330px;
+    width: 700px;
+    margin-bottom: 5px;
+    /* margin-right: 10px; */
+    display: inline-block;
+    /* text-align: center; */
+    border: 3px solid transparent;
+    vertical-align: middle;
+    border: 3px solid;
+    border-color: #2C4762;
+}
+
+.imgContainer img{
+    float: left;
+    object-fit: cover;
+    width: 400px;
+    height: 320px;
+    margin-right: 20px;
+}
+
+.imgContainer p{
+    vertical-align: middle;
+    margin: 0;
+    cursor: pointer;
+}
+
+html {
+    font-family: Oswald;
+}
+
+#Winner{
+    border: 3px solid;
+    border-color: #2C4762;
+}
+
+.eventInformation{
+    margin-top: 230px;
+    padding-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 28px;
+}
+
+.eventInformation p{
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#Airing {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.event{
+	position:relative;
+	/* top: 170px; */
+}
+
+.actress{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 24px;
+    margin-bottom: 120px;
+}
+
+.actor{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.actor p{
+    font-size: 24px;
+}
+
+.imgContainer p{
+    font-size: 18px;
+}
+
+.imgContainer h1{
+    font-size: 20px;
+}
+
+.other{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.other p{
+    font-size: 24px;
+}
+
+.other ul{
+    font-size: 18px;
+}
+
+.other a{
+    font-size: 18px;
+}
+
+
+.seperationLine{
+    border-top: 2px solid #BBBBBB;
+}
+
+#leftImage{
+    width : 120px;
+    height : auto;
+    float : left;
+}
+#rightImage{
+    width : 120px;
+    height : auto;
+    float : right;
+}
+
+.close{}
+
+.top{
+	z-index: 999;
+}
+
+.header h1{
+    text-align: center;
+    line-height: 200px;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#addWindow {
+	z-index:999;
+	/* position:fixed; */
+	right:0%;
+	/* top: 120px; */
+	padding:10px;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+  }
+
+.price {
+    font-size: large;
+    font-weight: bold;
+}
+/* .event {
+  display: none;
+}
+
+#addWindow{
+  display: none;
+}
+
+.searchBox{
+  display: none;
+} */
+
+.btn-danger{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 5;
+  visibility: hidden;
+}
