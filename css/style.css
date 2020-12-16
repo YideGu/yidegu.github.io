@@ -1,0 +1,425 @@
+.header {
+    position: fixed;
+    width:100%;
+    top:0;
+	z-index:999;
+    background: #2C4762;
+    color: #DAF1FC;
+    height: 120px;
+    border-bottom: 3px solid  #BBBBBB;
+    border-top: 3px solid  #BBBBBB;
+    background-color: #0D3255;
+}
+
+.header img{
+      margin-top: 10px;
+      vertical-align: middle;
+}
+
+.clock{
+	position: relative;
+	top:0%;
+	left:5%;
+
+}
+
+#demo{
+	font-size:20px;
+}
+
+#inputWindow{
+	/* position: fixed; */
+	display: flex;
+	flex-direction: column;
+}
+
+#headerPic {
+	position: fixed;
+	left:20px;
+}
+
+#addFormat{
+	display: flex;
+	align-items: flex-end;
+
+}
+
+#flexbox{
+	display: flex;
+	align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#flexbox > div{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.game-window {
+  height: 100%;
+  width: 500px;
+  background: white;
+  border-right: 3px solid #53f;
+  float: left;
+  position: relative;
+}
+
+.content{
+    margin-left: 40px;
+}
+
+.imgContainer{
+    height: 210px;
+    width: 1000px;
+    margin-bottom: 5px;
+    /* margin-right: 10px; */
+    display: inline-block;
+    /* text-align: center; */
+    border: 3px solid transparent;
+    vertical-align: middle;
+    border: 1px solid;
+    border-color: #2C4762;
+    cursor: pointer;
+}
+
+.imgContainer:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+.imgContainer img{
+    float: left;
+    object-fit: cover;
+    width: 250px;
+    height: 210px;
+    margin-right: 20px;
+}
+
+.imgContainer p{
+    vertical-align: middle;
+    margin: 0;
+}
+
+html {
+    font-family: Oswald;
+}
+
+#Winner{
+    border: 3px solid;
+    border-color: #2C4762;
+}
+
+.eventInformation{
+    margin-top: 230px;
+    padding-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 28px;
+}
+
+.eventInformation p{
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#Airing {
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.event{
+	position:relative;
+	/* top: 170px; */
+}
+
+.actress{
+    /* margin-left: 20px; */
+    margin-right: 20px;
+    font-size: 24px;
+    margin-bottom: 120px;
+}
+
+.actor{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.actor p{
+    font-size: 24px;
+}
+
+.imgContainer p{
+    font-size: 18px;
+}
+
+.imgContainer h1{
+    font-size: 20px;
+}
+
+.other{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.other p{
+    font-size: 24px;
+}
+
+.other ul{
+    font-size: 18px;
+}
+
+.other a{
+    font-size: 18px;
+}
+
+
+.seperationLine{
+    border-top: 2px solid #BBBBBB;
+}
+
+#leftImage{
+    width : 120px;
+    height : auto;
+    float : left;
+}
+#rightImage{
+    width : 120px;
+    height : auto;
+    float : right;
+}
+
+#clock{
+	position:relative;
+	right:100%;
+}
+
+.close{
+    position: relative;
+    right: -650px;
+    top: -108px;
+    float: none !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.top{
+	z-index: 999;
+}
+
+.header h1{
+    text-align: center;
+    line-height: 200px;
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.descriptionClass{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#addWindow {
+	z-index:999;
+	/* position:fixed; */
+	right:0%;
+	/* top: 120px; */
+	padding:10px;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+.priceClass {
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
+
+
+
+.btn-danger{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 5;
+  visibility: hidden;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+}
+#sidebar ul li a:hover {
+    color: #7386D5;
+    background: #fff;
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+.btn-primary {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 5;
+}
+
+h {
+  size: 10px;
+  color: white;
+}
+.greeting-msg {
+  position: relative;
+  right: 20px;
+}
+
+.positiveButton {
+    background: #76B3FA;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    margin-left: 0px;
+}
+
+.negativeButton {
+background: #1f436d;
+border-radius: 15px;
+color: #fff;
+text-decoration: none;
+border: none;
+}
+
+
+#signin-msg {
+  font-size: 40px;
+}
+
+.signin-intro {
+  position: relative;
+  text-align: center;
+  top: 80px;
+}
+.condition-terms {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 350px;
+  margin-right: 350px;
+  text-align: center;
+}
+#my-signin2 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+      /* margin: 0 auto; */
+    /* padding: 1.5rem 2rem; */
+    margin-top: 1px;
+    margin-bottom: 3px;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 90%;
+    display: block;
+    /* border-bottom: 0.3rem solid transparent; */
+    transition: all 0.3s;
+}
+
+#SearchButton {
+	border-radius: 2px;
+	border: solid 2px #BBBBBB;
+}
+
+button:hover {
+	background-color: lightgray;
+}
+
+#content {
+    width: 100%;
+}
+.article-header {
+  background-color: #7386D5;
+  height: 150px;
+}
+.article-title, .article-desc {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.article-title {
+  padding-top: 10px;
+}
+
+#addWindow{
+    display: none;
+}
+
+.signOutWindow{
+    display: none;
+}
+
